@@ -7,7 +7,7 @@
 /* Header Styles */
 
 .header, #name, #name p, #nav , #nav li, a {
-    background-color: lightgrey;
+    background-color: pink;
 }
 
 #name {
@@ -41,6 +41,10 @@
     font-size: 25px;
 }
 
+#nav li a:hover{
+    color:white;
+}
+
 
 /* Banner Styles */
 
@@ -72,29 +76,47 @@ span.hero {
 
 
 /* Personal Info Section Styles */
-
-.personal-info{
-    color: blue;
-    font-style: italic;
-    font-family: "Handlee";
+h3 {
+    font-size: 30px;
     font-weight: bold;
-    border-style: solid;
-    background-color:lightgrey;
-    
+    text-align: center;
+}
+.personal-info li {
+    list-style: none;
+    font-size: 30px;
+    text-align: justify;
 }
 
-ul.personal-info {
-    font-size: 30px;
+.personal-wrapper{
+    width:650px;
+    margin: auto;
+}
+
+.info {
+    border: 6px pink solid;
+    width: 700px;
+    margin: auto;
+    padding-bottom: 10px;
 
 }
 
 /* More Info Section Styles */
-.more-info {
-color: light-green;
+.more-info p {
+background-color: rgb(241, 214, 218);
+font-weight:bold;
+height: 200px;
+font-size: 30px;
+text-align: center;
+width: 900px;
+padding: 30px 30px;
+margin: 10px auto;
+
+
+/* color: light-green;
 font-weight: bold;
 font-family: san serif;
 font-style: italic;
-border-style: dashed;
+border-style: dashed; */
 }
 
 
@@ -107,9 +129,16 @@ border-style: dashed;
 
 .contact-info{
     display:inline-block;
-    width:400px;
-    margin-left: 200px;
-    text-align: left;
+    width:500px;
+    margin-left: 240px;
+    text-align: justify;
+    padding: 10px;
+    font-size: 25px;
+    /* border: 1px solid black; */
+}
+
+h2 {
+    text-align: center;
 }
 
 #form {
@@ -117,8 +146,8 @@ border-style: dashed;
     text-align:left;
     width: 560px;
     height: 425px;
-    margin: 10px 100px;
-    border: 3px solid black;
+    margin: 10px 50px;
+    border: 3px solid pink;
     padding: 0;
 }
 
