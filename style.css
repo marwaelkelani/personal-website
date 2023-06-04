@@ -90,6 +90,7 @@ h3 {
 .personal-wrapper{
     width:650px;
     margin: auto;
+    border: 6px pink solid;
 }
 
 .info {
@@ -110,13 +111,6 @@ text-align: center;
 width: 900px;
 padding: 30px 30px;
 margin: 10px auto;
-
-
-/* color: light-green;
-font-weight: bold;
-font-family: san serif;
-font-style: italic;
-border-style: dashed; */
 }
 
 
