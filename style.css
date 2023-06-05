@@ -1,5 +1,5 @@
 *{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Alegreya Sans', sans-serif;
     background-color: white;
    
 }
@@ -26,10 +26,10 @@
     text-align: right;
     width: 300px;
     display: inline-block;
-    /* margin-left: 500px; */
+    margin-left: 800px;
     border: 1px black;
   
-    float: right;
+    /* float: right; */
 }
 
 #nav li {
@@ -117,11 +117,13 @@ h2 {
 
 .more-info-education{
     background-color: white;
+    padding: 30px;
+    margin-left: 200px;
 }
 .education-info {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 50px;
+    margin: auto auto;
     padding: auto;
     background-color: white;
 }
@@ -146,6 +148,7 @@ h2 {
 
 .more-info-programming{
     background-color: white;
+    margin-left: 200px;
 }
 .programming-info {
     display: grid;
@@ -223,14 +226,12 @@ h2 {
 
 label {
     text-align: left;
-    font-family: "Handlee";
     font-size: 20px;
     font-weight: bold;
 }
 
 input {
     margin-bottom: 20px;
-    font-family: "Handlee";
     font-size: 20px;
     width: 500px;
 }
@@ -243,7 +244,6 @@ input {
 #submit-button{
     background-color: white;
     color: black;
-    font-family: "Handlee";
     font-size: 20px;
 }
 
