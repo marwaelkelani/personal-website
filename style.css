@@ -1,5 +1,5 @@
 *{
-    font-family:"handlee";
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: white;
    
 }
@@ -12,10 +12,13 @@
 
 #name {
     font-size: 30px;
-    width: 200px;
+    width: 400px;
+    height: 100px;
     margin: 0;
     padding:0;
     display:inline-block;
+    text-align: left;
+
 
 }
 
@@ -23,8 +26,10 @@
     text-align: right;
     width: 300px;
     display: inline-block;
-    margin-left: 800px;
-    /* float: right; */
+    /* margin-left: 500px; */
+    border: 1px black;
+  
+    float: right;
 }
 
 #nav li {
@@ -32,6 +37,7 @@
     display: inline-block;
     padding-right: 10px;
     padding-left: 10px;
+    
 }
 
 #nav li a {
@@ -210,7 +216,8 @@ h2 {
     display: inline-block;
     padding: 10px;
     margin: 10px;
-    /* border: 1px solid black; */
+    width: 510px;
+ 
 
 }
 
@@ -228,7 +235,6 @@ input {
     width: 500px;
 }
 
-/* HOW DO I MAKE THE MESSAGE START AT THE TOP AND NOT IN THE MIDDLE? */
 #message {
     height: 150px;
     
