@@ -115,13 +115,12 @@ h2 {
 
 .more-info-education{
     background-color: white;
-    padding: 30px;
-   margin: auto;
+    margin: auto;
 }
 .education-info {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: auto auto;
+    margin: 50px;
     padding: auto;
     background-color: white;
 }
