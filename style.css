@@ -26,11 +26,9 @@
     text-align: right;
     width: 300px;
     display: inline-block;
-    margin-left: 800px;
+    margin-left: 600px;
     border: 1px black;
-  
-    /* float: right; */
-}
+  }
 
 #nav li {
     list-style: none;
@@ -118,7 +116,7 @@ h2 {
 .more-info-education{
     background-color: white;
     padding: 30px;
-    margin-left: 200px;
+   margin: auto;
 }
 .education-info {
     display: grid;
@@ -148,7 +146,7 @@ h2 {
 
 .more-info-programming{
     background-color: white;
-    margin-left: 200px;
+    margin: auto;
 }
 .programming-info {
     display: grid;
@@ -189,16 +187,15 @@ h2 {
     background-color: pink;
 }
 
-.contact-info{
+.contact-info {
     display:inline-block;
     width:500px;
     height:250px;
     border: 5px black solid;
-    margin-left: 240px;
+    margin: auto;
     text-align: justify;
-    padding: 10px;
+    padding: 30px;
     font-size: 25px;
-    margin-top: 10px;
 }
 
 h2 {
